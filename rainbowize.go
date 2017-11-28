@@ -19,9 +19,7 @@ func main() {
 func rainbow(s string, lineCount int) {
 	for i := 0; i < len(s); i++ {
 
-		subindex := (i + lineCount) % 30 // will give the index of each 30 char substring
-		// fmt.Printf("%d", subindex)
-		// subindex = (subindex + lineCount) % 30
+		subindex := (i + lineCount) % 30 // will give the index of each 30 char substring and rotate through colors
 
 		switch {
 		case subindex >= 0 && subindex < 5:

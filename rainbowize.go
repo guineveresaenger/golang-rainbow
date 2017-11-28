@@ -1,4 +1,4 @@
-package main
+package rainbow
 
 import (
 	"fmt"
@@ -6,15 +6,6 @@ import (
 
 	"github.com/fatih/color"
 )
-
-func main() {
-	string := "Hello, Guinevere. You're a real dev now. No pressure...adding more chars to not run out of extra too much extra now not too much extra this can go on forrrrrevvvverrrrr"
-
-	for i := 0; i < 50; i++ {
-		rainbow(string, i)
-	}
-
-}
 
 func rainbow(s string, lineCount int) {
 	for i := 0; i < len(s); i++ {

@@ -14,13 +14,15 @@ Assuming you are set up for golang, simply run from the terminal:
 ## Use it!
 The package contains a single function, `Rainbow`. It takes a string input and an integer count. It returns nothing, printing a rainbowized version of your string, followed by a newline, to the terminal.
 
-_String input_
+### String input
 Whatever string you want rainbowized!
 
-_Counter_
-If you print multiple lines, a running line count passed to `Rainbow` will offset the colors in your rstring, making a diagonal rainbow. For a vertical rainbow, set this value to zero.
+### Counter input
+If you print multiple lines, a running line count passed to `Rainbow` will offset the colors in your string, making a diagonal rainbow. For a vertical rainbow, or a single line, set this value to zero.
 
 
 ### Example
 
-`rainbow.Rainbow("Hi, I am a rainbow.", 0)` ![screenshot](./example-line.png)
+`rainbow.Rainbow("Hi, I am a rainbow.", 0)` 
+
+=> ![screenshot](./example-line.png)

@@ -5,7 +5,7 @@ This is a simple golang package that can be used to turn your terminal output in
 This package is meant for fun only.
 
 ## Get it!
-###OSX
+### OSX
 
 Assuming you are set up for golang, simply run from the terminal:
 
@@ -23,4 +23,4 @@ If you print multiple lines, a running line count passed to `Rainbow` will offse
 
 ### Example
 
-`rainbow.Rainbow("Hi, I am a rainbow.", 0)` [!screenshot](./example-line.png)
+`rainbow.Rainbow("Hi, I am a rainbow.", 0)` ![screenshot](./example-line.png)

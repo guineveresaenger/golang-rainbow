@@ -24,4 +24,5 @@ If you print multiple lines, a running line count passed to `Rainbow` will offse
 ### Example
 
 `rainbow.Rainbow("Hi, I am a rainbow.", 0)` 
+
 ![screenshot](./example-line.png)

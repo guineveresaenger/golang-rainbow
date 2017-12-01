@@ -22,7 +22,10 @@ If you print multiple lines, a running line count passed to `Rainbow` will offse
 
 
 ### Example
+In your program, call the Rainbow function:
 
 `rainbow.Rainbow("Hi, I am a rainbow.", 0)` 
+
+You will see that line in the terminal output as:
 
 ![screenshot](./example-line.png)
